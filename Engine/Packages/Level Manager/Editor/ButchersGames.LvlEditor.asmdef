@@ -1,13 +1,12 @@
 {
-    "name": "Gameplay.Session",
-    "rootNamespace": "Gameplay.Session",
+    "name": "ButchersGames.LvlEditor",
+    "rootNamespace": "ButchersGames.LvlEditor",
     "references": [
-        "GUID:e59bf9fc7d5a44b18a819a92edd46163",
-        "GUID:f5f01a091e0d746659b4380253d52f4e",
-        "GUID:324caed91501a9c47a04ebfd87b68794",
         "GUID:0d9fc91b35de447f59888837866b3d0f"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

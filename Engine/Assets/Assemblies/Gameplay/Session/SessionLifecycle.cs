@@ -1,10 +1,11 @@
+using ButchersGames.Lvl;
 using Leopotam.EcsLite.Di;
 using Leopotam.EcsLite;
 using UnityEngine;
 
 namespace Gameplay.Session
 {
-    internal sealed class SessionLifecycle : MonoBehaviour
+    internal sealed class SessionLifecycle : Level
     {
         [SerializeReference]
         private InjectModuleInSession[] _injectModules;
